@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60780
+64334
 Successfully changed project path to: /Users/mdh/Documents/GitHub/climacity/demo
 /Users/mdh/Documents/GitHub/climacity/demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/mdh/Documents/GitHub/climacity/demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8032451200] Host "[IP] 10.20.151.118 [Port] 0 [Flags] 2 [Guid] 3522827098 [EditorId] 3522827098 [Version] 1048832 [Id] OSXEditor(0,10-20-151-118.dynapool.wireless.nyu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8032451200] Host "[IP] 10.20.151.118 [Port] 0 [Flags] 2 [Guid] 3897873889 [EditorId] 3897873889 [Version] 1048832 [Id] OSXEditor(0,10-20-151-118.dynapool.wireless.nyu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8032451200] Host "[IP] 10.20.151.118 [Port] 0 [Flags] 2 [Guid] 3522827098 [EditorId] 3522827098 [Version] 1048832 [Id] OSXEditor(0,10-20-151-118.dynapool.wireless.nyu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8032451200] Host "[IP] 10.20.151.118 [Port] 0 [Flags] 2 [Guid] 3897873889 [EditorId] 3897873889 [Version] 1048832 [Id] OSXEditor(0,10-20-151-118.dynapool.wireless.nyu.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 68.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,75 +73,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56293
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56838
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001020 seconds.
+Registered in 0.001099 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 69.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.416 seconds
+- Completed reload, in  0.413 seconds
 Domain Reload Profiling:
-	ReloadAssembly (417ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (413ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (286ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (297ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (66ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (174ms)
+			SetupLoadedEditorAssemblies (183ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001849 seconds.
+Registered in 0.001714 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/mdh/Documents/GitHub/climacity/demo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/mdh/Documents/GitHub/climacity/demo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
+- Completed reload, in  0.767 seconds
 Domain Reload Profiling:
-	ReloadAssembly (703ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (54ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (294ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (85.2 KB). Loaded Objects now: 3818.
-Memory consumption went from 109.9 MB to 109.8 MB.
-Total: 2.751750 ms (FindLiveObjects: 0.128458 ms CreateObjectMapping: 0.043959 ms MarkObjects: 2.499208 ms  DeleteObjects: 0.079375 ms)
+Unloading 27 unused Assets / (Unknown). Loaded Objects now: 3818.
+Memory consumption went from 109.6 MB to 109.7 MB.
+Total: 2.639708 ms (FindLiveObjects: 0.134792 ms CreateObjectMapping: 0.039166 ms MarkObjects: 2.386917 ms  DeleteObjects: 0.078083 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,13 +170,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 119630.259983 seconds.
-  path: Assets/mischa
-  artifactKey: Guid(1985637c461d843e8aa69cf99efdc0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mischa using Guid(1985637c461d843e8aa69cf99efdc0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d0a947fb1f76d88132c4126a636e93') in 0.004195 seconds 
+  Time since last request: 784292.097620 seconds.
+  path: Assets/mischa/chesebrough.fbx
+  artifactKey: Guid(cde5c4c81f17e4dc4bd712c6849e28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mischa/chesebrough.fbx using Guid(cde5c4c81f17e4dc4bd712c6849e28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e9e39a0996aa87acc1269743f87922') in 1.243635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.094467 seconds.
-  path: Assets/samira
-  artifactKey: Guid(e261f1838e1144b2bbf99fe728499b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/samira using Guid(e261f1838e1144b2bbf99fe728499b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256a85fcd9dfd2bfa48da2a586e313e9') in 0.000780 seconds 
+  Time since last request: 44.570860 seconds.
+  path: Assets/mischa/chesebrough.fbx
+  artifactKey: Guid(cde5c4c81f17e4dc4bd712c6849e28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mischa/chesebrough.fbx using Guid(cde5c4c81f17e4dc4bd712c6849e28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6938e025f1144c847850bbf14b4ff685') in 0.023481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3219.581257 seconds.
+  path: Assets/mischa/pier.fbx
+  artifactKey: Guid(b2c48d3f0251d4f69a713abbe7e02a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mischa/pier.fbx using Guid(b2c48d3f0251d4f69a713abbe7e02a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1d5ebe94ae5413185fb4db7e58060') in 0.063575 seconds 
